@@ -22,7 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cancel
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.ListAlt
+import androidx.compose.material.icons.automirrored.filled.ListAlt
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.RemoveCircle
 import androidx.compose.material3.Button
@@ -313,7 +313,7 @@ fun ResultScreen(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(bottom = 12.dp)
             ) {
-                Icon(imageVector = Icons.Default.ListAlt, contentDescription = null, tint = CyanNeon, modifier = Modifier.size(20.dp))
+                Icon(imageVector = Icons.AutoMirrored.Filled.ListAlt, contentDescription = null, tint = CyanNeon, modifier = Modifier.size(20.dp))
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
                     text = "সম্পূর্ণ OMR উত্তরপত্র পর্যালোচনা",
