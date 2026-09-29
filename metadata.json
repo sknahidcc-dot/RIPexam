@@ -1,0 +1,6 @@
+{
+  "name": "RIP-Exam",
+  "description": "AMOLED Dark OMR Sheet Exam & Evaluation App with Instant Crash Recovery, Live Timer, and Analytics",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
